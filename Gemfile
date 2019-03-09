@@ -66,6 +66,12 @@ group :development, :test do
 end
 
 group :development do
+  gem 'capistrano', '~> 3.7', '>= 3.7.1', require: false
+  gem 'capistrano-rails', '~> 1.2'
+  gem 'capistrano-passenger', '~> 0.2.0'
+  gem 'capistrano-rbenv', '~> 2.1'
+  gem 'capistrano-yarn'
+  gem 'capistrano-god', github: "77agency/capistrano-god"
   gem 'annotate', '~> 2.7'
   gem 'ruby-prof', '~> 0.17.0', require: false
 end

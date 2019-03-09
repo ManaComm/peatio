@@ -16,7 +16,7 @@ protected
         if params(env)[:id].present?
           :show
         else
-          env['REQUEST_PATH'].end_with?('/new') ? :new : :index
+          env['REQUEST_URI'].end_with?('/new') ? :new : :index
         end
       when 'POST' then :create
       when 'PUT', 'PATCH' then :update
