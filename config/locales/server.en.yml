@@ -535,10 +535,10 @@ en:
   'false': false
   view_on_github: View on Github
   slogan:
-    heading: Peatio Open-Source Exchange
-    subheading: Cloud deployment made simple and secure
-    text1: Peatio - Cryptocurrency exchange for managing digital currency.
-    text2: We provide Peatio installation and configuration services.
+    heading: Tichex - Token to electronic money
+    subheading: The real ERC20 Token to Em@ney Bridge
+    text1: Tichex is in pre-launch mode
+    text2: Please, check back again, we are working hard.
   trade:
     markets: Markets
     realtime_price:
